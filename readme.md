@@ -1,6 +1,6 @@
 # Calculator
 
-I created this for learn JavaScript.
+I created this to learn JavaScript.
 
 This was one of the projects from [The Odin Project](https://www.theodinproject.com/home) - Full Stack Curriculum.
 
