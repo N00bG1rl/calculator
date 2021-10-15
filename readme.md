@@ -1,8 +1,23 @@
-Created by Helen
+# Calculator
 
-[View In Browser](https://n00bg1rl.github.io/calculator/)
+I created this for learn JavaScript.
 
-[Odin Project: Calculator](https://www.theodinproject.com/courses/web-development-101/lessons/calculator)
+This was one of the projects from [The Odin Project](https://www.theodinproject.com/home) - Full Stack Curriculum.
 
-Introduction:
-You’re going to make an on-screen calculator using JavaScript, HTML, and CSS.
+# Created at
+
+November 10, 2017
+
+# Project is created with
+
+* JavaScript
+* HTML
+* CSS
+
+# View on browser
+
+## [https://n00bg1rl.github.io/calculator/](https://n00bg1rl.github.io/calculator/)
+
+# View as image
+
+![github](./assets/github.png)
