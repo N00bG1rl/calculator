@@ -1,10 +1,14 @@
 html {
   box-sizing: border-box;
-  font-weight: 900;
   color: black;
+  overflow: auto;
 }
 body {
-  margin: 0 auto;
+  position: relative;
+  height: 100vh;
+  min-height: 700px;
+  margin: 0;
+  padding: 0;
 }
 #wrapper {
   width: 100%;
@@ -13,6 +17,15 @@ body {
   background-color: black;
   position: absolute;
   overflow: hidden;
+}
+.logo {
+  width: 80px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 3;
+  padding: 20px;
+  background-color: transparent;
 }
 #container {
   width: 294px;
@@ -31,6 +44,10 @@ body {
   font-size: 40px;
   background-color: #f2f2f2;
 }
+#calc {
+  height: 100%;
+  padding: 30px;
+}
 #btn {
   width: 70px;
   height: 60px;
@@ -42,4 +59,52 @@ body {
 }
 td {
   float: left;
+}
+footer {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  padding-bottom: 20px;
+  bottom: 0;
+}
+footer .social ul {
+  padding: 0;
+  font-size: 0;
+}
+footer .social li {
+  padding: 10px 5px;
+  display: inline-block;
+}
+.social a svg {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  fill: #737373;
+  transition: ease-in-out .3s;
+  -moz-transition: ease-in-out .3s;
+}
+.social a svg:hover {
+  fill: #E61B25;
+}
+.copyright {
+  font-size: 0;
+}
+.copyright span,
+.copyright a {
+  font-family: sans-serif;
+  color: #737373;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: .6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: ease-in-out .3s;
+  -moz-transition: ease-in-out .3s;
+}
+.copyright span {
+  padding: 5px;
+}
+.copyright a:hover {
+  color: #E61B25;
 }
